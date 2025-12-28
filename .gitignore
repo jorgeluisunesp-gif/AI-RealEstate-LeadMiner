@@ -1,0 +1,31 @@
+Configurações locais e segredos
+
+.env
+*.env
+
+Driver do navegador (não deve ir para o GitHub)
+
+msedgedriver.exe
+geckodriver
+chromedriver
+
+Pastas de dados e resultados (mantenha os dados reais privados)
+
+data/.csv
+data/.xlsx
+!data/.gitkeep
+
+Python
+
+pycache/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+.env/
+
+IDEs
+
+.vscode/
+.idea/
